@@ -1,3 +1,3 @@
 # ucc-computer-architecture
 
-PGM Binary to Decimal
+## PGM Octal to Decimal
