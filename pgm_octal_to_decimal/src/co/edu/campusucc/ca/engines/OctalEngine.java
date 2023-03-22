@@ -1,11 +1,16 @@
 package co.edu.campusucc.ca.engines;
 
-public class OctalEngine {
-    public OctalEngine() {
-        System.out.println("⚡ Start Octal's Engine ⚡");
-    }
+import java.util.Random;
 
-    int octal[] = {0, 1, 2, 3, 4, 5, 6, 7};
+public class OctalEngine {
+    final long id;
+    final int octal[] = {0, 1, 2, 3, 4, 5, 6, 7};
+
+    public OctalEngine() {
+        System.out.println("⚡ Started Octal's Engine ⚡");
+        id = new Random().nextLong();
+        System.out.println("🆔 "+this.id);
+    }
 
     public boolean checkNumber(String number) {
         boolean checkOctal = true;
