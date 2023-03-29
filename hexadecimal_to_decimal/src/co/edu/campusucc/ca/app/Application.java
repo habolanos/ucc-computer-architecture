@@ -1,14 +1,14 @@
 package co.edu.campusucc.ca.app;
 
 import java.util.Scanner;
-import co.edu.campusucc.ca.engines.OctalEngine;
+import co.edu.campusucc.ca.engines.HexadecimalEngine;
 
-public class App {
+public class Application {
     public static void main(String[] args) {
         String imprimir;
         long resultado;
         String numero;
-        OctalEngine engine = new OctalEngine();
+        HexadecimalEngine engine = new HexadecimalEngine();
 
         Scanner capturar = new Scanner (System.in);
         System.out.println("Conversor Octal a Decimal");
