@@ -1,8 +1,5 @@
 # ucc-computer-architecture
 
-## 28/Feb 2023 Sesion on Campus Cali
-## 28/Mar 2023 Sesion on Campus Cali --> Hexadecimal
-
 ## Projects
 
 |PGMs                  |Folder                                              |
@@ -14,5 +11,7 @@
 
 ## Next Projects
 Decimal to Hexadecimal
+minix kernel
+linux kernel
 
 by: hadrian
